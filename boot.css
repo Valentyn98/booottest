@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    height: 100vh;
+    background: url("./image/bg.png") center/cover;
+}
+.header_nav{
+    height: 50px;
+}
+.cart{
+    width: 20px;
+}
+div>a{
+    text-decoration: none;
+}
+.but{
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    border: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
