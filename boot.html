@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="header">
-    <div class="header___top wrapper">
+    <div class="header___top d-flex justify-content-between align-items-center wrapper">
         <div class="logop"><img src="./image/LOGO.svg" alt="logotype"></div>
         <div class="menu_item">
             <div class="nav_item"><a href="#">ГЛАВНАЯ</a></div>
@@ -33,7 +33,8 @@
                 <div><p class="un_p">Свяжитесь с нами для
                     бронирования</p></div>
             </div>
-            <div class="button"><button id="but" type="#" name="#">ЗАКАЗ СТОЛИКА</button></div>
+            <button type="button" class="btn btn-warning">ЗАКАЗ СТОЛИКА</button>
+<!--            <div class="button"><button id="but" type="#" name="#">ЗАКАЗ СТОЛИКА</button></div>-->
         </div>
         <div class="mobile_but">
             <div class="line_but_mob"></div>
@@ -46,32 +47,56 @@
             <h2>Добро пожаловать в</h2>
             <h1>Наш ресторан</h1>
             <p>ДОМ ЛУЧШЕЙ ЕДЫ</p>
-            <button id="menu_b" type="" name="">VIEW MENU</button>
+<!--            <button id="menu_b" type="" name="">VIEW MENU</button>-->
+            <button type="button" class="btn btn-warning menu_b">ЗАКАЗ СТОЛИКА</button>
         </div>
     </div>
 </div>
 <section class="our_history wrapper"  >
-    <div class="transit_to_history">
-        <div class="block_trnsit">
+    <div class="card-group transit_to_history">
+        <div class="card block_trnsit">
             <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>
-            <div><p class="adv_tr">Магическая <span>Атмосфера</span></p></div>
-            <div><p class="child_tr">В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</p></div>
+            <div class="card-body text-center">
+                <h5 class="card-title adv_tr">Магическая <span>Атмосфера</span></h5>
+                <p class="card-text child_tr align-items-center">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+            </div>
         </div>
-        <div class="block_trnsit">
+        <div class="card block_trnsit">
             <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>
-            <div><p class="adv_tr">Лучшее качество <span>Еды</span></p></div>
-            <div><p class="child_tr">Качество нашей
-                Еды - отменное!
-            </p></div>
+            <div class="card-body text-center">
+                <h5 class="card-title adv_tr">Лучшее качество <span>Еды</span></h5>
+                <p class="card-text child_tr">Качество нашей Еды - отменное! </p>
+            </div>
         </div>
-        <div class="block_trnsit">
+        <div class="card block_trnsit">
             <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>
-            <div><p class="adv_tr">Магическая <span>Атмосфера</span></p></div>
-            <div><p class="child_tr">В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами</p></div>
+            <div class="card-body text-center ">
+                <h5 class="card-title adv_tr">Магическая <span>Атмосфера</span></h5>
+                <p class="card-text child_tr">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+            </div>
         </div>
     </div>
+<!--    <div class="transit_to_history">-->
+<!--        <div class="block_trnsit">-->
+<!--            <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>-->
+<!--            <div><p class="adv_tr">Магическая <span>Атмосфера</span></p></div>-->
+<!--            <div><p class="child_tr">В нашем заведении царит магическая атмосфера-->
+<!--                наполненная вкусными ароматами</p></div>-->
+<!--        </div>-->
+<!--        <div class="block_trnsit">-->
+<!--            <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>-->
+<!--            <div><p class="adv_tr">Лучшее качество <span>Еды</span></p></div>-->
+<!--            <div><p class="child_tr">Качество нашей-->
+<!--                Еды - отменное!-->
+<!--            </p></div>-->
+<!--        </div>-->
+<!--        <div class="block_trnsit">-->
+<!--            <div><img src="./image/Mask%20Group%20(1).png" alt="" width="126" height="104"></div>-->
+<!--            <div><p class="adv_tr">Магическая <span>Атмосфера</span></p></div>-->
+<!--            <div><p class="child_tr">В нашем заведении царит магическая атмосфера-->
+<!--                наполненная вкусными ароматами</p></div>-->
+<!--        </div>-->
+<!--    </div>-->
 </section>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -96,6 +96,15 @@ table {
     color: white;
     border: none;
 }
+.btn-warning{
+    height: 47px;
+    width: 147px;
+    background: #FF7400;
+    color: white;
+    border: none;
+    font-size: 14px;
+    line-height: 19px;
+}
 .main_header{
     /*margin-top: 220px;*/
 
@@ -206,9 +215,9 @@ table {
     }
     .header___top{
         padding-top: 25px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        /*align-items: center;*/
     }
     .menu_item{
         display: none;
@@ -276,4 +285,14 @@ table {
         font-size: 22px;
         line-height: 25px;
     }
+    .card-body{
+        padding-top: 0px;
+
+    }
+    .block_trnsit img{
+        margin-top: 0px;
+        width: 115px;
+        height: 96px;
+    }
+
 }
